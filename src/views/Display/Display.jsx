@@ -9,6 +9,10 @@ import {motion} from 'framer-motion'
 import { GithubFilled } from '@ant-design/icons';
 
 import useMedia from '../shared/useMedia'
+import club from "../../assets/clubs.png"
+import scheduleImg from "../../assets/schedule.png"
+import courseImg from "../../assets/courses.png"
+
 const {Title, Text} = Typography
 
 // mobile iphone x ratio
@@ -16,7 +20,7 @@ const {Title, Text} = Typography
 
 
 const schedule = {
-    photo : "https://cdn.discordapp.com/attachments/626507510085320725/773434378600316928/Screen_Shot_2020-11-04_at_1.31.58_AM.png",
+    photo : scheduleImg,
     isMobile: true,
     siteLink: "https://hseschedule.com",
     githubLink: "https://github.com/HSE-Apps/schedule-client",
@@ -25,7 +29,7 @@ const schedule = {
 }
 
 const clubs = {
-    photo: "https://cdn.discordapp.com/attachments/626507510085320725/773385564061696050/Screen_Shot_2020-11-03_at_10.18.00_PM.png",
+    photo: club,
     isMobile: false,
     siteLink: "https://hseclubs.com",
     githubLink: "https://github.com/HSE-Apps/club-client",
@@ -44,7 +48,7 @@ const tutoring = {
 }
 
 const courses = {
-    photo: "https://cdn.discordapp.com/attachments/627006557321691138/773590829490765844/Screen_Shot_2020-11-04_at_11.53.42_AM.png",
+    photo: courseImg,
     isMobile: false,
     githubLink: "https://github.com/ArnavMeh/hsecourses-front",
     desc: 'View course options and plan out your academic career.',

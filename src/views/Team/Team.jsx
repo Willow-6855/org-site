@@ -9,6 +9,14 @@ import TeamCard from './TeamCard'
 import ethan from '../../assets/people/ethan.png'
 import arya from "../../assets/people/Aryadeep_Buddha.jpg"
 import lakshay from "../../assets/people/lakshay.jpeg"
+import aaron from "../../assets/people/aaron.jpeg"
+import alec from "../../assets/people/alec.jpeg"
+import anish from "../../assets/people/anish.png"
+import arnav from "../../assets/people/arnav.jpeg"
+import eric from "../../assets/people/eric.jpeg"
+import meglan from "../../assets/people/meglan.jpeg"
+import sully from "../../assets/people/sully.jpeg"
+
 import { LinkOutlined} from '@ant-design/icons';
 
 import MemberList from './MemberList'
@@ -121,20 +129,20 @@ const Team = () => {
                 style={{width: '85%', maxWidth: genWidth(), zIndex: "3",  marginTop: smallerLayout ?  mobile ?' calc(100% * .3)': 'calc(100% * .19)' : 'calc(100% * .14)'}}
                 >
                     
-                    <MemberList title="Founders" noLink={true}>
-                        <TeamCard info={{name: "Aryadeep Buddha", img: arya, li:"https://www.linkedin.com/in/aryadeep-buddha-57b751211/", gh: "https://github.com/AryaBuddha", roles: ['Founder', 'Project Lead','Fullstack']}}/>
+                    <MemberList title="Leadership" noLink={true}>
+                        <TeamCard info={{name: "Aryadeep Buddha", img: arya, li:"https://www.linkedin.com/in/aryadeep-buddha-57b751211/", gh: "https://github.com/AryaBuddha", roles: ['Leadership', 'Project Lead','Fullstack']}}/>
 
-                        <TeamCard info={{name: "Lakshay Mahajan", img:lakshay, li: "https://www.linkedin.com/in/lakshay-mahajan-8b986a237/", gh: "https://github.com/lakshayMahajan", roles: ['Founder','Backend', 'Mobile'], }}/>
+                        <TeamCard info={{name: "Lakshay Mahajan", img:lakshay, li: "https://www.linkedin.com/in/lakshay-mahajan-8b986a237/", gh: "https://github.com/lakshayMahajan", roles: ['Leadership','Backend', 'Mobile'], }}/>
                     </MemberList>
 
                     <MemberList title="Members" noLink={true}>
                         <TeamCard info={{name: "Ethan Donahue", li: "https://www.linkedin.com/in/ethan-donahue-69834b197/", gh: "https://github.com/ethandonahue", roles: ['Frontend'], img: ethan}}/>
-                        <TeamCard info={{name: "Meglan O'mera", roles: ['Frontend', 'Design'], img: "https://cdn.discordapp.com/attachments/627006557321691138/775133138569527296/unknown.png"}}/>
-                        <TeamCard info={{name: "Eric Bedrosian", roles: ['Outreach'], img: "https://cdn.discordapp.com/attachments/626507510085320725/773308830011752499/eric.png"}}/>
-                        <TeamCard info={{name: "Ethan Zentz", gh: "https://github.com/ezlikespie", roles: ['Fullstack'], img: "https://prd-mp-images.azureedge.net/6b32ad23-3213-4fdb-b9db-e1825a512362/image/8b36ffe8-aeb4-4bc0-9acb-058dc5b8d68d/about-image.jpg"}}/>
-                        <TeamCard info={{name: "Anish Kambhampati", roles: ['Backend'],gh: "https://github.com/kambhani", img: "https://cdn.discordapp.com/attachments/627006557321691138/773349755719385098/anish.png"}}/>
-                        <TeamCard info={{name: "Alec Thierion De Monclin", roles: ['Backend'], img: "https://cdn.discordapp.com/attachments/626507510085320725/773350832175054848/alec.png"}}/>
-                        <TeamCard info={{name: "Sullivan Schena", roles: ['Frontend'], img: "https://cdn.discordapp.com/attachments/627006557321691138/773365547768479744/unknown.png"}}/>
+                        <TeamCard info={{name: "Meglan O'mera", roles: ['Frontend', 'Design'], img: meglan}}/>
+                        <TeamCard info={{name: "Eric Bedrosian", roles: ['Outreach'], img:eric}}/>
+                        <TeamCard info={{name: "Ethan Zentz", gh: "https://github.com/ezlikespie", roles: ['Fullstack'], img: ethan}}/>
+                        <TeamCard info={{name: "Anish Kambhampati", roles: ['Backend'],gh: "https://github.com/kambhani", img: anish}}/>
+                        <TeamCard info={{name: "Alec Thierion De Monclin", roles: ['Backend'], img: alec}}/>
+                        <TeamCard info={{name: "Sullivan Schena", roles: ['Frontend'], img: sully}}/>
 
                     </MemberList>
                     <MemberList title="Previous Members" noLink={true}>
@@ -146,8 +154,8 @@ const Team = () => {
                             img: "https://i.imgur.com/xmAoEuZ.png"
                         }}
                         />
-                        <TeamCard info={{name: "Arnav Mehra", img: "https://cdn.discordapp.com/attachments/701265165525450834/765037663849152532/Screen_Shot_2020-10-11_at_10.26.27_PM.png", li: "https://www.linkedin.com/in/arnav-mehra-ab8975193/", gh: "https://github.com/ArnavMeh", roles: ['Fullstack']}}/>
-                        <TeamCard info={{name: "Aaron Ni", img: "https://cdn.discordapp.com/attachments/627006557321691138/773816409632669736/aaron.png", li: "https://www.linkedin.com/in/aaron-ni/", gh: "https://github.com/Physige", roles: ['Frontend', 'Mobile']}}/>
+                        <TeamCard info={{name: "Arnav Mehra", img: arnav, gh: "https://github.com/ArnavMeh", roles: ['Fullstack']}}/>
+                        <TeamCard info={{name: "Aaron Ni", img: aaron, roles: ['Frontend', 'Mobile']}}/>
                     </MemberList>
 
                    

@@ -42,7 +42,7 @@ const ProductCard = ({img, title, description, last, status, link}) => {
 
     const links = {
         Key: "https://github.com/HSE-Apps/hse-key",
-        Boiler: "https://github.com/HSE-Apps/boiler"
+        Boiler: "https://github.com/HSE-Apps/Active-Directory-Boiler"
     }
 
     return(

@@ -23,7 +23,7 @@ const roleColors = {
     "Backend" : "#d418ff",
     "Project Lead": "#eb2f96",
     "Retired": "#32CD32",
-    "Founder": "#1890ff",
+    "Leadership": "#1890ff",
 }
 
 
