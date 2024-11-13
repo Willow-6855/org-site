@@ -22,8 +22,8 @@ const {Title, Text} = Typography
 const schedule = {
     photo : scheduleImg,
     isMobile: true,
-    siteLink: "https://hseschedule.com",
-    githubLink: "https://github.com/HSE-Apps/schedule-client",
+    siteLink: "https://hseschedule.app/",
+    githubLink: "https://github.com/HSE-Apps-Team/schedule-client",
     desc: 'View the live schedule updated for any occassion.'
 
 }
@@ -32,7 +32,7 @@ const clubs = {
     photo: club,
     isMobile: false,
     siteLink: "https://hseclubs.com",
-    githubLink: "https://github.com/HSE-Apps/club-client",
+    githubLink: "https://github.com/HSE-Apps-Team/club-client",
     desc: 'Manage, browse, and join clubs in one central place.'
 
 
